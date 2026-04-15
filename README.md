@@ -1,3 +1,53 @@
+# 🃏 Texas Holdem Poker Game Source Code  
+# 德州扑克源码 | 德州撲克源碼  
+
+🔥 Online Multiplayer Poker System  
+🔥 Club System + Agent System  
+🔥 Real-Time Gameplay + Full Source Code  
+
+---
+
+## 🚀 Quick Overview | 快速介绍 | 快速介紹
+
+### 🇺🇸 English
+Build your own Texas Holdem Poker platform with a complete multiplayer system, including club and agent features.  
+Ready for development, customization, and deployment.
+
+### 🇨🇳 简体中文
+快速搭建属于自己的德州扑克平台，支持多人对战、俱乐部系统和代理体系。  
+适用于开发、定制及部署。
+
+### 🇹🇼 繁體中文
+快速建立自己的德州撲克平台，支援多人對戰、俱樂部與代理系統。  
+適用於開發與客製化部署。
+
+---
+
+## 🎮 Demo | 演示
+
+👉 See gameplay preview below  
+
+（这里一定放截图！！！）
+
+---
+
+## ✨ Key Features | 核心功能 | 核心功能
+
+- 🧑‍🤝‍🧑 Multiplayer Poker（多人对战）  
+- 🏆 Club System（俱乐部系统）  
+- 🧩 Agent System（代理体系）  
+- ⚡ Real-time Gameplay（实时对局）  
+- 🌐 Online Server（在线服务器）  
+- 🔧 Customizable（可二次开发）  
+
+---
+
+## ⚡ Quick Start | 快速开始 | 快速開始
+
+```bash
+npm install
+node server.js
+
 # 🎰 德州扑克完整运营级源码 | Texas Hold'em Complete Source Code | 德州撲克完整營運級源碼
 
 > **线上稳定运营多年 | 支持联盟/俱乐部/私人局 | 媲美hhpoker, wpk | 源码+美术+运维脚本**
