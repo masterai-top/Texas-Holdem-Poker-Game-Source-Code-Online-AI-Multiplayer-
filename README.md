@@ -1,5 +1,9 @@
 # 🃏 Texas Holdem Poker Game Source Code   德州扑克源码 | 德州撲克源碼 |德州撲克系統
+Texas Hold'em Poker Platform
+德州扑克游戏平台源码
 
+Real-time Multiplayer • High Concurrency • Club System
+实时对战 · 高并发 · 俱乐部系统
 💡 Build your own poker platform in minutes  
 💡 快速搭建属于你的德州扑克平台  
 💡 快速建立自己的德州撲克系統  
@@ -85,6 +89,30 @@ Ready for development, customization, and deployment.
 
 ---
 
+🏢 Club System | 俱乐部系统
+Private Club（私人俱乐部）
+Agent / Affiliate System（代理体系）
+Player Management（玩家管理）
+Custom Rules & Rake（自定义规则/抽水）
+⚡ Real-time Engine | 实时引擎
+WebSocket / TCP 通信
+低延迟同步（毫秒级）
+断线重连 / 状态恢复
+服务端防作弊校验
+🏗 Architecture | 系统架构
+Game Server：C++ / Golang（高性能）
+通信协议：WebSocket / TCP
+数据库：MySQL + Redis
+后端服务：Node.js / Java
+客户端支持：
+Web (H5)
+Android / iOS
+PC Desktop
+📊 Performance | 性能表现
+✔ 支持 10,000+ 并发玩家
+✔ 平均延迟 < 80ms（亚洲）
+✔ 支持分布式扩展
+✔ 长时间稳定运行
 
 ## ✨ Key Features | 核心功能 | 核心功能
 
@@ -278,7 +306,21 @@ This is a **fully operational, battle-tested** Texas Hold'em complete solution, 
 2.  **Fork** 到你的账号，作为技术评估的起点。
 3.  **联系 TG @xuzongbin001**，备注“GitHub源码咨询”。
 
+⚠️ Disclaimer | 声明
 
+
+This project is provided for educational and development purposes only.
+Users must comply with local laws and regulations.
+
+
+本项目仅用于学习与开发用途，请遵守当地法律法规。
+
+⭐ Why Choose This Project | 项目优势
+✔ 成熟稳定（可直接运营）
+✔ 高并发支持
+✔ 模块化设计（易扩展）
+✔ 支持多玩法 + 俱乐部体系
+✔ 可快速二次开发
 
 
 
