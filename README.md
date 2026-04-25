@@ -50,7 +50,7 @@
 
 ## 🚀 快速开始
 
-```bash
+
 # 1. 克隆项目
 git clone https://github.com/masterai-top/Texas-Holdem-Poker-Game-Source-Code.git
 cd Texas-Holdem-Poker-Game-Source-Code
