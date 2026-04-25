@@ -1,159 +1,143 @@
 # 🃏 Texas Holdem Poker Game Source Code   德州扑克源码 | 德州撲克源碼 |德州撲克系統
-Texas Hold'em Poker Platform
-德州扑克游戏平台源码
-
-Real-time Multiplayer • High Concurrency • Club System
-实时对战 · 高并发 · 俱乐部系统
+Texas Hold'em Poker Platform/Real-time Multiplayer • High Concurrency • Club System
+德州扑克游戏平台源码/实时对战 · 高并发 · 俱乐部系统
 💡 Build your own poker platform in minutes  
 💡 快速搭建属于你的德州扑克平台  
 💡 快速建立自己的德州撲克系統  
 
-🔥 Online Multiplayer System  
-🔥 Club + Agent System  
-🔥 Real-Time Gameplay  
+---
 
-👉 🚀 Demo Available  
-👉 📩 Contact for Full Version  
+## 🚀 Overview | 项目简介
 
-# 本项目是德州扑克在线多人游戏的完整解决方案源码，适用于：
+**EN:**
+A production-ready Texas Hold'em poker platform designed for real-time multiplayer gameplay, high concurrency, and flexible business customization.
+Built for game studios, operators, and developers who need a scalable and reliable poker system.
 
-- 德州金币大厅
-- 德州俱乐部/联盟
-- 德州朋友局/私人局
-- iOS/Android App 双端部署。
+**中文：**
+本项目是一套成熟稳定的德州扑克实时对战平台，支持**高并发、低延迟、可扩展业务逻辑**，适用于游戏公司、运营团队及开发者快速搭建扑克系统。
 
-项目基于 C++ 服务端 + Unity 客户端架构，已在线上产品中稳定运行，支持高并发、实时对战、俱乐部与代理系统。
-## 一、功能亮点
+---
+
+## 🎮 Core Features | 核心功能
+
+### 🃏 Game Modes | 游戏玩法
+
+* Sit & Go (SNG)
+* Multi-Table Tournament (MTT)
+* Short Deck (6+)
+* Omaha（奥马哈）
+* Fast Mode / AOF（快速模式）
+
 
 - **多模式德州玩法**  
   - 经典德州 Hold'em  
   - 短牌 Short Deck  
   - AOF、大菠萝、SNG、MTT 等多种赛事/玩法（可按需扩展）
 
-- **俱乐部与代理系统**  
-  - 俱乐部创建、成员管理  
-  - 代理分润、抽水结算  
-  - 俱乐部专属房间、排行榜、赛事支持
 
 - **实时对战与多端支持**  
   - 实时服务器，支持 6~10 人一桌  
   - 客户端基于 Unity 引擎，支持 iOS / Android 平台  
   - 支持好友邀请、私密局、语音聊天（可选）
-## 二、技术架构
 
-- 服务端：C++ 编写，高并发、低延迟实时网络
-- 客户端：Unity 开发，支持 iOS / Android 双端  
-- 通信：WebSocket / TCP 协议，支持心跳与断线重连
-- 数据库：MySQL / MongoDB（可按需替换）
-## 三、优化到 10 分的建议（可直接实施）
+### 🏢 Club System | 俱乐部系统
 
-1. **规则与边池优化**  
-   - 严格实现发牌、下注轮次、边池拆分、摊牌逻辑  
-   - 为每种复杂场景（多个 all-in、多边池）编写单元测试
+* Private Clubs（私人俱乐部）
+* Agent / Affiliate System（代理体系）
+* Player & Table Management（玩家/牌桌管理）
+* Custom Rules & Rake（规则与抽水自定义）
+* 俱乐部创建、成员管理  
+* 代理分润、抽水结算  
+*俱乐部专属房间、排行榜、赛事支持
+---
 
-3. **网络与实时性优化**  
-   - 所有操作由服务端驱动，客户端只做展示  
-   - 优化事件广播、减少冗余网络包、加入心跳与断线重连
+### ⚡ Real-time Engine | 实时引擎
 
-4. **可维护性与测试**  
-   - 代码分层清晰（`table/`、`player/`、`ai/`、`game/`）  
-   - 增加大量单元测试和集成测试，确保结算、边池、资金准确
-
-5. **产品化与运营**  
-   - 增加后台统计面板：每日牌局数、玩家盈亏、俱乐部收益  
-   - 增加风控接口，识别异常牌局与对局模式
-
-## 四、部署与使用
-
-- 服务端编译与部署（C++）  
-- 客户端导入 Unity 工程，打包 iOS / Android  
-- 配置数据库、网络地址、游戏参数即可上线
-
-## 五、联系与支持
-
-- Telegram：@xuzongbin001  
-- Email：masterai918@gmail.com  
-## 🚀 Quick Overview | 快速介绍 | 快速介紹
-
-### 🇺🇸 English
-Build your own Texas Holdem Poker platform with a complete multiplayer system, including club and agent features.  
-Ready for development, customization, and deployment.
-
-### 🇨🇳 简体中文
-快速搭建属于自己的德州扑克平台，支持多人对战、俱乐部系统和代理体系。  
-适用于开发、定制及部署。
-
-### 🇹🇼 繁體中文
-快速建立自己的德州撲克平台，支援多人對戰、俱樂部與代理系統。  
-適用於開發與客製化部署。
+* WebSocket / TCP 通信
+* 毫秒级同步（Low latency sync）
+* 断线重连 / 状态恢复
+* 服务端防作弊校验
 
 ---
 
-###🏢 Club System | 俱乐部系统
-Private Club（私人俱乐部）
-Agent / Affiliate System（代理体系）
-Player Management（玩家管理）
-Custom Rules & Rake（自定义规则/抽水）
-⚡ Real-time Engine | 实时引擎
-WebSocket / TCP 通信
-低延迟同步（毫秒级）
-断线重连 / 状态恢复
-服务端防作弊校验
-###🏗 Architecture | 系统架构
-Game Server：C++ / Golang（高性能）
-通信协议：WebSocket / TCP
-数据库：MySQL + Redis
-后端服务：Node.js / Java
-客户端支持：
-Web (H5)
-Android / iOS
-PC Desktop
-###📊 Performance | 性能表现
-✔ 支持 10,000+ 并发玩家
-✔ 平均延迟 < 80ms（亚洲）
-✔ 支持分布式扩展
-✔ 长时间稳定运行
-## 📦 Project Structure | 项目结构
-/poker-server      # 游戏服务端
-/poker-client      # 客户端（H5/APP）
-/poker-admin       # 后台管理系统
-/poker-docs        # 文档说明
-## 📚 Documentation | 文档说明
-API 文档
-部署教程
-架构说明
-二次开发指南
-🤝 Customization | 定制开发
+## 🏗 Architecture | 系统架构
 
-## 支持以下定制：
+### 📌 High-Level Architecture
 
-UI/UX 定制
-玩法扩展
-支付系统接入
-多语言支持
-功能模块扩展
-## ✨ Key Features | 核心功能 | 核心功能
-
-- 🧑‍🤝‍🧑 Multiplayer Poker（多人对战）  
-- 🏆 Club System（俱乐部系统）  
-- 🧩 Agent System（代理体系）  
-- ⚡ Real-time Gameplay（实时对局）  
-- 🌐 Online Server（在线服务器）  
-- 🔧 Customizable（可二次开发）  
+```mermaid
+graph TD
+    A[Client (Web / Mobile)] --> B[Global Load Balancer]
+    B --> C[Gateway Server]
+    C --> D[Game Server Cluster]
+    D --> E[Redis (Cache / State)]
+    D --> F[MySQL (Persistent Data)]
+    C --> G[API Service]
+    G --> F
+```
 
 ---
 
-## ⚡ Quick Start | 快速开始 | 快速開始
+### 📌 Architecture Explanation | 架构说明
+-   **服务端**：C++ (高效稳定)
+-   **客户端**：Cocos Creator / Unity (可演示)
+-   **通信**：Tars / 私有协议
+-   **数据**：MySQL + Redis
+**EN:**
 
+* Gateway handles connection & routing
+* Game Server processes core logic
+* Redis stores real-time state
+* MySQL ensures data persistence
+* API Service handles business logic
 
-> **线上稳定运营多年 | 支持联盟/俱乐部/私人局 | 媲美hhpoker, wpk | 源码+美术+运维脚本**
+**中文：**
 
+* Gateway 负责连接与路由分发
+* Game Server 处理核心游戏逻辑
+* Redis 用于实时状态缓存
+* MySQL 负责数据持久化
+* API 服务处理业务逻辑
 
-## 🎮 Demo | 演示 | 演示
+---
 
-See real gameplay below 👇  
-查看游戏实际画面 👇  
-查看實際遊戲畫面 👇  
+## 📊 Performance | 性能表现
+
+```text
+✔ 10,000+ Concurrent Players Tested  
+✔ Avg Latency: 50–80 ms (Asia)  
+✔ Packet Loss: < 0.2%  
+✔ Stable Long-session Gameplay  
+```
+
+---
+
+## 🌐 Deployment | 部署方案
+
+支持：
+
+* AWS / GCP / Azure
+* Docker / Kubernetes
+* 私有化部署（On-premise）
+
+### ✅ Recommended Setup（推荐部署）
+
+* Game Server：Tokyo Region
+* CDN：Global Edge Acceleration
+* DNS：Geo Routing
+
+---
+
+## 🔐 Security | 安全机制
+
+* Server-side validation（防作弊）
+* TLS 数据加密
+* 风控与限流系统
+* 日志与监控
+* DDoS 防护支持
+
+---
+
+## 📸 Screenshots | 界面展示
 
 ![微信图片_20241029191811 - 副本](https://github.com/user-attachments/assets/31da98f9-d812-4501-9756-d7e9efe08f12)
 ![优化-9人桌](https://github.com/user-attachments/assets/1dc7be3e-eee3-4bfb-98ef-27b428bcc3fa)
@@ -170,7 +154,59 @@ See real gameplay below 👇
 ![Stars](https://img.shields.io/github/stars/masterai-top/Texas-Holdem-Poker-Game-Source-Code-Online-AI-Multiplayer-?style=social)
 ![Last Update](https://img.shields.io/github/last-commit/masterai-top/Texas-Holdem-Poker-Game-Source-Code-Online-AI-Multiplayer-)
 🚀 Perfect for building poker apps, platforms, or learning real-time game development
-## 🇨🇳 简体中文
+
+---
+
+## 🎥 Demo | 演示
+
+
+* 📱 APK Download: 联系- Telegram：@xuzongbin001 
+
+
+## 📬 Contact | 联系方式
+
+- Telegram：@xuzongbin001  
+- Email：masterai918@gmail.com  
+
+## 📦 Project Structure | 项目结构
+
+```bash
+/poker-server      # 游戏服务端
+/poker-client      # 客户端（H5 / APP）
+/poker-admin       # 后台管理系统
+/poker-docs        # 文档与说明
+```
+
+---
+
+## 📚 Documentation | 文档说明
+
+* API 文档
+* 部署指南
+* 架构设计说明
+* 二次开发指南
+
+---
+
+## 🤝 Customization | 定制支持
+
+* UI/UX 定制
+* 新玩法开发
+* 支付系统集成
+* 多语言支持
+* 功能扩展
+
+---
+
+## 📈 Use Cases | 应用场景
+
+* 在线扑克平台
+* 棋牌游戏系统
+* 社交娱乐应用
+* 棋牌游戏运营项目
+
+---
+
 
 ### 🔥 为什么选择这套源码？
 
@@ -184,161 +220,27 @@ See real gameplay below 👇
 -   **优质资源**：提供全套高清美术资源、UI源文件、音效。
 -   **同类对比**：在功能、稳定性和扩展性上，**全面优于 hhpoker 和 wpk**。
 
-### 🎯 功能清单
-
-| 模块 | 功能说明 |
-| :--- | :--- |
-| **大厅系统** | 多玩法入口、公告、排行榜、商城 |
-| **约局/俱乐部** | 好友约局、俱乐部创建/管理、联盟赛事 |
-| **牌桌逻辑** | 标准/短牌/奥马哈，自动Buy-in，Straddle，保险 |
-| **赛事系统** | MTT（多桌锦标赛）、SNG（坐满即玩） |
-| **后台管理** | 玩家管理、报表统计、局分调整、风险控制 |
-
-### 🚀 技术架构
-
--   **服务端**：C++ (高效稳定)
--   **客户端**：Cocos Creator / Unity (可演示)
--   **通信**：Tars / 私有协议
--   **数据**：MySQL + Redis
-
-### 📦 交付内容
-
--   全份服务端源码 + 客户端源码
--   完整的数据库脚本
--   高清美术资源和UI源文件
--   部署运维脚本和文档
-
-### 💰 合作与购买
-💼 Commercial version with full features available  
-💼 提供完整商业版本与部署支持  
-💼 提供完整商業版本與部署支援  
-
--   **联系方式**：📱 **Telegram：@xuzongbin001**
--   **备用邮箱**：📧 **masterai918@gmail.com**
-
-👉 **立即联系，获取在线演示和详细报价！**
-
 ---
 
-## 🇺🇸 English
+## ⚠️ Disclaimer | 声明
 
-### 🔥 Why Choose Our Texas Hold'em Source Code?
+**EN:**
+This project is for educational and development purposes only. Users must comply with local laws and regulations.
 
-This is a **fully operational, battle-tested** Texas Hold'em complete solution, used by live clubs for years. Far superior to demo-quality code.
-
-### ✨ Key Advantages
-
--   **Complete Game Modes**：Texas, Omaha, Short Deck, Pineapple, MTT, SNG, AOF, and **Alliance/Union Mode**.
--   **Private Club System**：Friend games, club management, insurance, and detailed statistics.
--   **High Performance**：C++ backend, proven stability with thousands of concurrent users.
--   **Quality Assets**：Includes all HD art, UI source files, and sound effects.
--   **Superior Alternative**：More features and better stability than hhpoker or wpk.
-
-### 🎯 Feature List
-
-| Module | Description |
-| :--- | :--- |
-| **Lobby** | Game mode selection, announcements, rankings, shop |
-| **Club/Private Room** | Friend invites, club creation, union tournaments |
-| **Table Logic** | Standard/Short/Omaha, auto buy-in, straddle, insurance |
-| **Tournament** | MTT (Multi-Table), SNG (Sit & Go) |
-| **Admin Panel** | Player management, reports, game balance, risk control |
-
-### 🚀 Tech Stack
-
--   **Backend**：C++ (Stable & Efficient)
--   **Client**：Cocos Creator / Unity (Demo available)
--   **Protocol**：Tars / Custom
--   **Database**：MySQL + Redis
-
-### 📦 Delivery Package
-
--   Full server + client source code
--   Complete database scripts
--   All HD art assets and UI sources
--   Deployment scripts & documentation
-
-### 💰 Contact for Purchase
-
-**We provide source code licensing, customization, and technical support.**
-
--   📱 **Telegram**：**@xuzongbin001**
--   📧 **Email**：**masterai918@gmail.com**
-
-👉 **Contact us now for an online demo and pricing!**
-
----
-
-## 🇭🇰 繁體中文
-
-### 🔥 為何選擇這套德州撲克源碼？
-
-這是一套 **真正上線營運多年、經受考驗** 的德州撲克完整解決方案，已被多個俱樂部用於實際營運。
-
-### ✨ 核心賣點
-
--   **完整玩法矩陣**：德州、奧馬哈、短牌、大菠蘿、MTT、SNG、AOF，**聯盟模式**全支援。
--   **俱樂部/私人局**：完整的約局、俱樂部管理、保險、戰績統計。
--   **高穩定性**：C++ 高效能服務端，支援千人同時在線。
--   **優質資源**：提供全套高清美術資源、UI源檔、音效。
--   **同類對比**：功能和穩定性 **全面優於 hhpoker 和 wpk**。
-
-### 🎯 功能清單
-
-| 模組 | 功能說明 |
-| :--- | :--- |
-| **大廳系統** | 多玩法入口、公告、排行榜、商城 |
-| **約局/俱樂部** | 好友約局、俱樂部管理、聯盟賽事 |
-| **牌桌邏輯** | 標準/短牌/奧馬哈，自動Buy-in，Straddle，保險 |
-| **賽事系統** | MTT（多桌錦標賽）、SNG（坐滿即玩） |
-| **後台管理** | 玩家管理、報表統計、局分調整、風控 |
-
-### 🚀 技術架構
-
--   **服務端**：C++ (高效穩定)
--   **客戶端**：Cocos Creator / Unity (可演示)
--   **通信**：Tars / 私有協議
--   **數據**：MySQL + Redis
-
-### 📦 交付內容
-
--   全份服務端源碼 + 客戶端源碼
--   完整的資料庫腳本
--   高清美術資源和UI源檔
--   部署維運腳本和文件
-
-### 💰 合作與購買
-
-**我們提供源碼授權、客製開發、技術維護一條龍服務。**
-
--   **聯繫方式**：📱 **Telegram：@xuzongbin001**
--   **備用郵箱**：📧 **masterai918@gmail.com**
-
-👉 **立即聯繫，獲取在線演示和詳細報價！**
-
----
-
-### ⭐ 如何让我们看到你？
-
-1.  **Star** 这个仓库，方便你随时找到。
-2.  **Fork** 到你的账号，作为技术评估的起点。
-3.  **联系 TG @xuzongbin001**，备注“GitHub源码咨询”。
-
-⚠️ Disclaimer | 声明
-
-
-This project is provided for educational and development purposes only.
-Users must comply with local laws and regulations.
-
-
+**中文：**
 本项目仅用于学习与开发用途，请遵守当地法律法规。
 
-⭐ Why Choose This Project | 项目优势
-✔ 成熟稳定（可直接运营）
-✔ 高并发支持
-✔ 模块化设计（易扩展）
-✔ 支持多玩法 + 俱乐部体系
-✔ 可快速二次开发
+---
+
+## ⭐ Why Choose This Project | 项目优势
+
+* ✔ 高并发支持（万人在线）
+* ✔ 成熟稳定（可直接部署）
+* ✔ 模块化设计（易扩展）
+* ✔ 多玩法 + 俱乐部体系
+* ✔ 支持定制开发
+
+---
 
 
 
