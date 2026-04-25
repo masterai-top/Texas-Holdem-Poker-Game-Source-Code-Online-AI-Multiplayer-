@@ -156,11 +156,12 @@ graph TD
 🚀 Perfect for building poker apps, platforms, or learning real-time game development
 
 ---
+🎥 Video Demo | 视频演示
 
-## 🎥 Demo | 演示
+👉 [https://youtube.com/your-video-link](https://www.facebook.com/share/v/1LHRj4he6A/?mibextid=wwXIfr)
 
-
-* 📱 APK Download: 联系- Telegram：@xuzongbin001 
+EN: Full gameplay + backend system walkthrough
+中文：完整游戏流程 + 后台演示
 
 
 ## 📬 Contact | 联系方式
