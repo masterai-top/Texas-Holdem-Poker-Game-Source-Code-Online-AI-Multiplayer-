@@ -89,7 +89,7 @@ Ready for development, customization, and deployment.
 
 ---
 
-🏢 Club System | 俱乐部系统
+###🏢 Club System | 俱乐部系统
 Private Club（私人俱乐部）
 Agent / Affiliate System（代理体系）
 Player Management（玩家管理）
@@ -99,7 +99,7 @@ WebSocket / TCP 通信
 低延迟同步（毫秒级）
 断线重连 / 状态恢复
 服务端防作弊校验
-🏗 Architecture | 系统架构
+###🏗 Architecture | 系统架构
 Game Server：C++ / Golang（高性能）
 通信协议：WebSocket / TCP
 数据库：MySQL + Redis
@@ -108,12 +108,30 @@ Game Server：C++ / Golang（高性能）
 Web (H5)
 Android / iOS
 PC Desktop
-📊 Performance | 性能表现
+###📊 Performance | 性能表现
 ✔ 支持 10,000+ 并发玩家
 ✔ 平均延迟 < 80ms（亚洲）
 ✔ 支持分布式扩展
 ✔ 长时间稳定运行
+## 📦 Project Structure | 项目结构
+/poker-server      # 游戏服务端
+/poker-client      # 客户端（H5/APP）
+/poker-admin       # 后台管理系统
+/poker-docs        # 文档说明
+## 📚 Documentation | 文档说明
+API 文档
+部署教程
+架构说明
+二次开发指南
+🤝 Customization | 定制开发
 
+## 支持以下定制：
+
+UI/UX 定制
+玩法扩展
+支付系统接入
+多语言支持
+功能模块扩展
 ## ✨ Key Features | 核心功能 | 核心功能
 
 - 🧑‍🤝‍🧑 Multiplayer Poker（多人对战）  
