@@ -2,6 +2,11 @@
 
 **德州扑克源码 | 德州扑克游戏源码 | 德州俱乐部源码 | 德州金币大厅 | 朋友局 | 联盟模式 | MTT/SNG | 高并发 C++ 服务端**
 
+**真实运营数年 · 支持线下验证 ·ALLIN德州扑克源码 ·八个不同德州玩法**
+
+
+**简体中文 · 繁體中文 · English· 韩文· 马来文· 日文· 泰文· 印尼语·越南文**
+
 [![Stars](https://img.shields.io/github/stars/masterai-top/Texas-Holdem-Poker-Game-Source-Code.svg)](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Source-Code/stargazers)
 [![License](https://img.shields.io/badge/License-Commercial%20Inquiry-blue.svg)](LICENSE)
 [![Language](https://img.shields.io/badge/Language-C%2B%2B%20%26%20Unity/Cocos-brightgreen.svg)](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Source-Code)
