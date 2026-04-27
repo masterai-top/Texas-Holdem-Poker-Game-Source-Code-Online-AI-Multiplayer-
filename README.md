@@ -35,6 +35,16 @@
 - Email：masterai918@gmail.com  
 
 有任何问题也欢迎提交 Issue 或 Pull Request。
+
+## 🚀 产品演示视频（强烈推荐观看）
+
+[![德州扑克完整功能演示](https://img.youtube.com/vi/adHRqfHmj0Q/maxresdefault.jpg)](https://www.youtube.com/shorts/adHRqfHmj0Q)
+
+**德州扑克完整功能演示视频**  
+金币大厅 + 俱乐部系统 + 多锦标赛 + 短牌玩法 + 实时对战
+
+视频时长约 10分钟，展示了系统的核心功能流程。
+点击上方图片直接跳转 YouTube 播放。
 ## 📸 界面展示,真实产品演示：
 
 ![微信图片_20241029191811 - 副本](https://github.com/user-attachments/assets/31da98f9-d812-4501-9756-d7e9efe08f12)
