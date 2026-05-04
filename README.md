@@ -34,7 +34,7 @@
 - Telegram：@xuzongbin001  
 - Email：masterai918@gmail.com  
 
-有任何问题也欢迎提交 Issue 或 Pull Request。
+
 
 ## 🚀 产品演示视频（强烈推荐观看）
 
